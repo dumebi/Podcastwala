@@ -1,41 +1,23 @@
-### Podcastwala
-Your very own Podcast web app built with Laravel 5. This web app enables you to manage RSS feeds for your favorite podcasts and listen to the episodes in a seamless UI. New episodes published by podcasts are automatically updated on a daily basis. Mark the items you have listened to as read and much more. 
+## Laravel PHP Framework
 
-### Screenshots
-![alt tag](https://raw.githubusercontent.com/modestkdr/Podcastwala/master/screenshots/prototype.png)
+[![Build Status](https://travis-ci.org/laravel/framework.svg)](https://travis-ci.org/laravel/framework)
+[![Total Downloads](https://poser.pugx.org/laravel/framework/downloads.svg)](https://packagist.org/packages/laravel/framework)
+[![Latest Stable Version](https://poser.pugx.org/laravel/framework/v/stable.svg)](https://packagist.org/packages/laravel/framework)
+[![Latest Unstable Version](https://poser.pugx.org/laravel/framework/v/unstable.svg)](https://packagist.org/packages/laravel/framework)
+[![License](https://poser.pugx.org/laravel/framework/license.svg)](https://packagist.org/packages/laravel/framework)
 
-![alt tag](https://raw.githubusercontent.com/modestkdr/Podcastwala/master/screenshots/manage-feeds.png)
+Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable, creative experience to be truly fulfilling. Laravel attempts to take the pain out of development by easing common tasks used in the majority of web projects, such as authentication, routing, sessions, queueing, and caching.
 
-### Features
- * Manage RSS feeds for your favorite podcasts
- * New episodes published by podcasts are updated automatically
- * Mark episodes you have listened to as read
- * Search for episodes by title and description
- * Mark all previous episodes in a podcast as read
- * Mark your favorite episodes, accessible via the ```podcast/favorites``` link
+Laravel is accessible, yet powerful, providing powerful tools needed for large, robust applications. A superb inversion of control container, expressive migration system, and tightly integrated unit testing support give you the tools you need to build any application with which you are tasked.
 
- Note: manually update new episodes by navigating to route ```podcast/auto-update```
+## Official Documentation
 
-### Install Instructions
-To install Podcastwala you can clone the repository:
+Documentation for the framework can be found on the [Laravel website](http://laravel.com/docs).
 
-```
-$ git clone https://github.com/modestkdr/Podcastwala.git.
-```
+## Contributing
 
-
-Next, enter the project's root directory and install the project dependencies:
-
-```
-$ composer install
-```
-
-Next, configure your .env file (root directory) and database (config/database.php). Subsequently, create the database and then run the migrations:
-
-```
-$ php artisan migrate
-```
+Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](http://laravel.com/docs/contributions).
 
 ### License
-Podcastwala is licensed under the MIT license. If you find something wrong with the code or think it could be improved, I welcome you to create an <a href="https://github.com/modestkdr/Podcastwala/issues">issue</a> or submit a pull request!
 
+The Laravel framework is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT)

@@ -15,7 +15,8 @@ class CreatePodcastsTable extends Migration {
 		Schema::create('podcasts', function(Blueprint $table)
 		{
 			$table->increments('id');
-			$table->timestamps();
+			$table->timestamp('created_at')->default(\DB::raw('CURRENT_TIMESTAMP'));
+			$table->timestamp('updated_at')->default(\DB::raw('CURRENT_TIMESTAMP'));
 			$table->string('name');
 			$table->string('machine_name');
 			$table->string('feed_url');

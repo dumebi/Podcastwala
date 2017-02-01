@@ -14,7 +14,7 @@ class AddMarkItemAsFavorite extends Migration {
 	{
 		Schema::table('items', function($table)
 		{
-		    $table->boolean('is_mark_as_favorite');
+		    $table->boolean('is_mark_as_favorite')->default(0);
 		});
 	}
 

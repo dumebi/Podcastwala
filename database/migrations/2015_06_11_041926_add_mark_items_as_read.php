@@ -14,7 +14,7 @@ class AddMarkItemsAsRead extends Migration {
 	{
 		Schema::table('items', function($table)
 		{
-		    $table->boolean('is_mark_as_read');
+		    $table->boolean('is_mark_as_read')->default(0);
 		});
 	}
 
